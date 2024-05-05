@@ -55,5 +55,5 @@ jobs:
 
         for ((i=0;i<$user_num;i++))
         do
-        python3 sign.py ${user_list[$i]} ${pwd_list[$i]}
+        python3 sign.py ${user_list[$i]} ${pwd_list[$i]} >> log.txt
         done

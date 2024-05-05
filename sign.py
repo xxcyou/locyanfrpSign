@@ -8,11 +8,11 @@ import base64
 from urllib import parse
 
 if len(sys.argv) < 2:
-    print('账号不能为空！')
+    print('账号不能为空！!')
     exit()
 
 if len(sys.argv) < 3:
-    print('密码不能为空！')
+    print('密码不能为空！!')
     exit()
 
 
