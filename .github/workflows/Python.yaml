@@ -16,4 +16,4 @@ jobs:
     - name: Update zhihu
       run: |
         cd run
-        sh run.sh 
+        sh run.sh ${{ env.username }} ${{ env.password }}
