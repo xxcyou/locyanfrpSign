@@ -27,7 +27,8 @@ jobs:
         
         user='${{ secrets.Q_USER }}'
         pwd='${{ secrets.Q_PWD }}'
-        
+        echo "$user"
+        echo "$pwd"
         user_list=()
         pwd_list=()
 
