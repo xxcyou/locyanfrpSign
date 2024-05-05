@@ -25,8 +25,8 @@ jobs:
       run: |
         pip install -r requirements.txt
         
-        user='${{ vars.Q_USER }}'
-        pwd='${{ vars.Q_PWD }}'
+        user='${{ vars.user.Q_USER }}'
+        pwd='${{ vars.user.Q_PWD }}'
         echo "$user"
         echo "$pwd"
         user_list=()
